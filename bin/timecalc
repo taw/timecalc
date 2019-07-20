@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/timecalc"
+
+ARGV.each do |expr|
+  puts Timecalc.new.call(expr)
+end
